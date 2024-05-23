@@ -14,15 +14,20 @@ int main() {
 
 		// 사용자 차례
 		while (num < 1 || num > 3){
-			cout << "개수를 입력하시오 : ";
+			cout << "개수를 입력하시오 (종료: -1) : ";
 			cin >> num;
 
 			// 1-3 개의 숫자만 말할 수 있음.
-			if (num < 1 || num > 3) {
+			if (num != -1 && num < 1 || num > 3) {
 				cout << "1-3 사이의 수를 입력하세요." << endl;
+				
+			} else if (num == -1) {
+
+				return 0;
 			}
 		}
 		
+
 		cout << "사용자가 부른 숫자!" << endl;
 
 		for (int i = 0; i < num; i++) {

@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BR31.cpp">
+    <ClCompile Include="LastKeyword.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

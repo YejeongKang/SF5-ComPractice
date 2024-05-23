@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SF5)ComPractice", "SF5)ComPractice\SF5)ComPractice.vcxproj", "{00D4C6E0-2885-475C-98D3-E2226E2BBBDA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P1_BR31", "SF5)ComPractice\SF5)ComPractice.vcxproj", "{00D4C6E0-2885-475C-98D3-E2226E2BBBDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "P2_LastKeyword", "P2_LastKeyword\P2_LastKeyword.vcxproj", "{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{00D4C6E0-2885-475C-98D3-E2226E2BBBDA}.Release|x64.Build.0 = Release|x64
 		{00D4C6E0-2885-475C-98D3-E2226E2BBBDA}.Release|x86.ActiveCfg = Release|Win32
 		{00D4C6E0-2885-475C-98D3-E2226E2BBBDA}.Release|x86.Build.0 = Release|Win32
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Debug|x64.ActiveCfg = Debug|x64
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Debug|x64.Build.0 = Debug|x64
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Debug|x86.Build.0 = Debug|Win32
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Release|x64.ActiveCfg = Release|x64
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Release|x64.Build.0 = Release|x64
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Release|x86.ActiveCfg = Release|Win32
+		{3A55B20A-BC40-42D0-A9CD-BCEF276A6C08}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
