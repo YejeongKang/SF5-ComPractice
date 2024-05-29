@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d8898c72-7740-4f89-9a11-19d94dbeb0c3}</ProjectGuid>
-    <RootNamespace>P3GuessNum</RootNamespace>
+    <ProjectGuid>{891b92fc-5c7a-4b78-9e5f-bc7724b93caa}</ProjectGuid>
+    <RootNamespace>P7GenerateGame</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Lotto.cpp" />
-    <ClCompile Include="User.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Lotto.h" />
-    <ClInclude Include="User.h" />
+    <ClCompile Include="P7_GenerateGame.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
