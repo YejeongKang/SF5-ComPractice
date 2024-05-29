@@ -27,11 +27,16 @@ int main()
 
 		if (0 < n1 && n1 < 10 && 0 < n2 && n2 < 10 && 0 < n3 && n3 < 10)
 		{
-			userNum = inputVector(n1, n2, n3);
-			flag = check(computerNum, userNum, RAND, cnt);
+			if (n1 == n2 || n2 == n3 || n3 == n1) {
+				cout << "중복된 값은 입력할 수 없습니다." << endl;
+				continue;
+			}
+			else {
+				userNum = inputVector(n1, n2, n3);
+				flag = check(computerNum, userNum, RAND, cnt);
 
-			if (flag) return 0;
-			
+				if (flag) return 0;
+			}
 		}
 		
 		else
