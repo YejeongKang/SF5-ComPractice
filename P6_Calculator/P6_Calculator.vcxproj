@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{891b92fc-5c7a-4b78-9e5f-bc7724b93caa}</ProjectGuid>
-    <RootNamespace>P7GenerateGame</RootNamespace>
+    <ProjectGuid>{ee54cd06-c085-433c-b76b-447dea613876}</ProjectGuid>
+    <RootNamespace>P6Calculator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,15 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="character.cpp" />
-    <ClCompile Include="Field.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="weapon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="character.h" />
-    <ClInclude Include="Field.h" />
-    <ClInclude Include="weapon.h" />
+    <ClCompile Include="P6_Calculator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
