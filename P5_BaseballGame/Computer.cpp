@@ -12,7 +12,7 @@ vector <int> generateRandNum(int r)
 	int cnum;
 	cRandVec.reserve(r);
 
-	// ·£´ı ¼ö »Ì±â
+	// ëœë¤ ìˆ˜ ë½‘ê¸°
 	while(cRandVec.size() < r) {
 
 		cnum = rand() % 9 + 1;
@@ -37,7 +37,7 @@ bool check(vector<int> vec1, vector <int> vec2, int r, int &cnt)
 
 	cnt++;
 
-	// ½ºÆ®¶óÀÌÅ©, º¼ ÆÇÁ¤
+	// ìŠ¤íŠ¸ë¼ì´í¬, ë³¼ íŒì •
 	for (int i = 0; i < 3; i++)
 	{
 		if (vec2[i] == vec1[i])
@@ -58,7 +58,7 @@ bool check(vector<int> vec1, vector <int> vec2, int r, int &cnt)
 	if (strikeCnt == 3)
 	{
 		flag = true;
-		cout << cnt << "¹ø ¸¸¿¡ ¸ÂÇû½À´Ï´Ù.";
+		cout << cnt << "ë²ˆ ë§Œì— ë§í˜”ìŠµë‹ˆë‹¤.";
 		return flag;
 	}
 
